@@ -1,0 +1,285 @@
+.ImgeDessert {
+  background-image: url(../../Img/Mask\ Group.png) !important;
+  width: 100%;
+  height: 100vh;
+
+  background-position: center center;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.layerBac {
+  background-color: #c98a40;
+  background-position: center center;
+  width: 63.23%;
+  height: 100vh;
+}
+
+.logoCon{
+  margin-left: 5rem;
+}
+
+.logImg {
+  width: 25% !important;
+
+}
+
+.textLogo {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  font-size: 28px;
+
+}
+
+.tasty {
+
+  line-height: normal;
+  font-size: 74px;
+font-style: normal;
+font-weight: 800;
+width: 140%;
+}
+
+.testySection {
+  width: 60%;
+}
+
+.conText {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  position: absolute;
+  left : 0;
+  margin-bottom: 200px;
+}
+
+
+
+.imgBread {
+  width: 600px;
+}
+
+/* btn */
+.btnSee {
+  border-radius: 30px;
+  background: #fdba10;
+  width: 194px;
+  height: 60px;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+/* box */
+.box {
+  width: 449px;
+  height: 201px;
+  background-image: url(../../Img/Mask\ Group.png) !important;
+  background-color: white;
+
+  position: absolute;
+  bottom: 0%;
+}
+
+/* Telephone */
+
+.Telephone {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0) !important;
+  display: inline-block;
+}
+
+.imgStarB {
+  position: absolute;
+  bottom: 0;
+  left: 290%;
+  width: 200%;
+}
+
+/* =================media=================== */
+@media (max-width: 560px) {
+  .tasty {
+    font-size: 32px;
+  }
+  .conText {
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+  .btnSee {
+  border-radius: 20px;
+  background: #fdba10;
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform:capitalize;
+  }
+  .testySection {
+    background-color: #c98a40;
+  }
+
+  /* === imgBread====== */
+
+  .imgBread {
+    width: 100% !important;
+  }
+  .conImg {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: translateY(0);
+    width: 350px !important;
+    margin-top: 2rem;
+  }
+
+  .box {
+    width: 10% !important;
+    height: 20% !important;
+  
+  }
+}
+
+@media (max-width: 800px) {
+  /* .space {
+    padding-left: 3rem !important;
+  } */
+
+  .logImg {
+    width: 5rem !important;
+  }
+
+  .logoCon {
+    display: flex;
+    align-items: center;
+  }
+  .ImgeDessert {
+    background-image: none !important;
+  }
+  .layerBac {
+    /* background-color: #c98a40; */
+    background-position: center center;
+
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Telephone {
+    color: black !important;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .box {
+    width: 200px;
+    height: 201px;
+    background-image: url(../../Img/Mask\ Group.png) !important;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+  }
+  .tasty {
+    font-size: 45px;
+  }
+  .conText {
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+  .btnSee {
+  border-radius: 20px;
+  background: #fdba10;
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform:capitalize;
+  }
+  .testySection {
+    background-color: #c98a40;
+  }
+
+  /* === imgBread====== */
+
+  .imgBread {
+    width: 100% !important;
+  }
+  .conImg {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: translateY(0);
+    width: 400px;
+    margin-top: 2rem;
+  }
+
+  .box {
+    width: 10% !important;
+    height: 20% !important;
+  
+  }
+  .Telephone {
+    position: absolute;
+    bottom: 0;
+    width: 500%;
+    color: rgb(0, 0, 0) !important;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1059px) {
+
+  .Telephone {
+    color: black !important;
+    background-color: #c98a40;
+    width: 100%;
+  }
+
+  /* === imgBread====== */
+
+  .imgBread {
+    width: 100% !important;
+  }
+
+  .conImg {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: translateY(0);
+    width: 400px;
+    margin-top: 2rem;
+  }
+
+  .conText {
+    flex-direction: column;
+    padding-bottom: 80px;
+    margin-left: 350px;
+  }
+
+  .testySection {
+    background-color: #c98a40;
+  }
+
+  .box {
+    width: 10% !important;
+    height: 20% !important;
+  
+  }
+  .Telephone {
+    position: absolute;
+    bottom: 0;
+    width: 500%;
+    color: rgb(0, 0, 0) !important;
+    display: inline-block;
+  }
+}

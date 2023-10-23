@@ -1,0 +1,68 @@
+.ImgeDessert {
+  background-image: url(../../Img/Mask\ Group\ 22.png) !important;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center center;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.layerBac {
+  background-color: #c98a40;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wordTesty {
+  color: #fff;
+  text-align: center;
+  font-family: Sen;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96%;
+  text-transform: uppercase;
+}
+
+.card {
+  border-radius: 30px;
+  color: #c98a40;
+}
+
+.cardTitle {
+  color: #c98a40;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.BtnCon {
+  width: 195px;
+  height: 60px;
+  border-radius: 30px;
+  background: #fdba10;
+  color: #fff;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+  margin: 20px;
+}
+@media (max-width: 996px) {
+  .wordTesty {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 669px) {
+  .wordTesty {
+    color: #fff;
+    font-size: 40px;
+  }
+}
+

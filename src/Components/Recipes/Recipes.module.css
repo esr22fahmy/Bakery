@@ -1,0 +1,34 @@
+.wordRec {
+  color: #c98a40;
+  font-family: Sen;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 30px 30px 0px 0px !important;
+}
+
+.BtnCon {
+  width: 195px;
+  height: 60px;
+  border-radius: 30px;
+  background: #fdba10;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+@media (max-width: 556px) {
+  .wordRec {
+    font-size: 80px;
+  }
+}

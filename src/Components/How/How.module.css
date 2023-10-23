@@ -1,0 +1,118 @@
+:root {
+    --colorOr: #c98a40;
+}
+
+.section {
+    position: relative;
+    min-height: 100vh;
+    background: url('../../Img/Mask\ Group.png');
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    background-color: var(--colorOr);
+}
+
+.howSection {
+    position: relative;
+    z-index: 2;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+.textSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionLorem {
+    /* flex: 1; */
+    color: var(--colorOr);
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 30px;
+    width: 600px;
+}
+
+.sectionTitle {
+    font-size: 120px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* flex: 1; */
+    text-align: left;
+    margin-left: 250px;
+}
+
+.btnSction {
+    width: 195px;
+    height: 60px;
+    border-radius: 30px;
+    background: #fdba10;
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    margin: 30px 0;
+}
+
+.imgsSectionHow {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    border-radius: 6px;
+    margin-top: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgHowSection {
+    width: 300px;
+    border-radius: 6px;
+}
+@media (max-width: 560px) {
+    .sectionLorem {
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 0 !important;
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .textSection {
+        flex-direction: column-reverse;
+    }
+
+    .section::before {
+        width: 0;
+    }
+    
+    .sectionTitle {
+        color: var(--colorOr) !important;
+        text-align: center !important;
+        margin: 0;
+        margin-left: 0 !important;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .sectionTitle {
+        font-size: 80px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        /* flex: 1; */
+        text-align: left;
+        margin-left: 150px;
+    }
+}

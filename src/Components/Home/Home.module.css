@@ -59,7 +59,7 @@ width: 140%;
 
 
 .imgBread {
-  width: 600px;
+  width: 40rem;
 }
 
 /* btn */
@@ -85,6 +85,7 @@ width: 140%;
 
   position: absolute;
   bottom: 0%;
+  padding-right: 2rem !important;
 }
 
 /* Telephone */
@@ -131,7 +132,7 @@ width: 140%;
   /* === imgBread====== */
 
   .imgBread {
-    width: 100% !important;
+    width: 40rem !important;
   }
   .conImg {
     position: relative;
@@ -179,14 +180,6 @@ width: 140%;
     font-size: 12px;
   }
 
-  .box {
-    width: 200px;
-    height: 201px;
-    background-image: url(../../Img/Mask\ Group.png) !important;
-    background-color: white;
-    position: absolute;
-    bottom: 0%;
-  }
   .tasty {
     font-size: 45px;
   }
@@ -212,7 +205,7 @@ width: 140%;
   /* === imgBread====== */
 
   .imgBread {
-    width: 100% !important;
+    width: 120% !important;
   }
   .conImg {
     position: relative;
@@ -226,6 +219,8 @@ width: 140%;
   .box {
     width: 10% !important;
     height: 20% !important;
+    padding-right: 0rem !important;
+
   
   }
   .Telephone {
@@ -273,6 +268,8 @@ width: 140%;
   .box {
     width: 10% !important;
     height: 20% !important;
+    padding-right: 0rem !important;
+
   
   }
   .Telephone {

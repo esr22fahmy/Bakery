@@ -90,7 +90,7 @@ export default function Contact() {
                 {errors.tel && <p style={{ color: "red" }}>{errors.tel}</p>}
 
                 <button
-                  className={`${styleCon.btnSend}  d-block mt-3`}
+                  className={`${styleCon.btnSend}  d-block mt-3 `}
                   type="submit"
                 >
                   SEND
@@ -98,7 +98,7 @@ export default function Contact() {
               </form>
             </div>
 
-            <div className=" col-md-4 d-flex justify-content-center align-items-center">
+            <div className=" col-md-4 d-flex justify-content-center align-items-center mt-5 mt-md-0 mt-xl-0 mt-lg-0">
               <div>
                 <div className={`${styleCon.colorTextIcons}`}>
                   <span>

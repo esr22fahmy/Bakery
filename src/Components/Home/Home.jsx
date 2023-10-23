@@ -26,7 +26,7 @@ export default function Home() {
           <div className={`${styleHome.conTextHome} text-white  mt-5 `}>
             <div className={`${styleHome.conText} container`}>
               <div className={`${styleHome.testySection } h-100 row align-items-center justify-content-center `}>
-                      <div className=" col-12 col-sm-12 col-md-12 col-lg-9">
+                      <div className=" col-12 col-sm-12 col-md-6 col-lg-9">
                       <h1 className={`${styleHome.tasty} text-uppercase`}>
                   Tasty pastries
                 </h1>
@@ -49,7 +49,7 @@ export default function Home() {
                       </div>
 
                       <div
-                      className={`${styleHome.conImg} col-12 col-sm-12 col-md-12 mt-5 col-lg-3 `}
+                      className={`${styleHome.conImg} col-12 col-sm-12 col-md-6 mt-5 col-lg-3 `}
                     >
                       <img className={`${styleHome.imgBread} `} src={imgBread} />
                     </div>
@@ -66,7 +66,6 @@ export default function Home() {
               justifyContent: "flex-end",
               alignItems: "flex-end",
               height: "100%",
-              paddingRight: "2rem",
               alignItems: "center",
               color: "#C98A40",
             }}
@@ -78,7 +77,7 @@ export default function Home() {
               <i className="fab fa-twitter-square  d-block"></i>
 
               <div className={`${styleHome.Telephone} ms-5 `}>
-                <p className="ms-5 "> Telephone: +7 700 000 00 00</p>
+                <p className="ms-5  "> Telephone: +7 700 000 00 00</p>
               </div>
             </div>
           </div>

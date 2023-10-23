@@ -32,7 +32,7 @@ export default function Testy() {
               </div>
             </div>
             {/* ===== */}
-            <div className=" col-md-6 ">
+            <div className=" col-md-6 mt-4 mt-lg-0 mt-xl-0 mt-md-0">
               <div className={`${styleTes.card} card`}>
                 <div className="card-body">
                   <h5 className={`${styleTes.cardTitle} card-title`}>
@@ -80,8 +80,7 @@ export default function Testy() {
               </div>
             </div>
             {/* 2 */}
-
-            <div className=" col-md-6 mt-4">
+            <div className=" col-md-6 mt-4 ">
               <div className={`${styleTes.card} card`}>
                 <div className="card-body">
                   <h5 className={`${styleTes.cardTitle} card-title`}>
